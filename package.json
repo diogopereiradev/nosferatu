@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/styled-components": "^5.1.19",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "eslint": "^8.6.0",
+    "eslint-plugin-react": "^7.28.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  },
+  "name": "nosferatu",
+  "version": "1.0.1",
+  "description": "The design was done with the theme of tsuki to laika nosferatu a recently released anime.",
+  "main": "dist/app.js",
+  "repository": "https://github.com/FhillSlinger/nosferatu",
+  "author": "FhillSlinger <fhillslingercontact@gmail.com>",
+  "license": "MIT"
+}
