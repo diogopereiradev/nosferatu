@@ -11,7 +11,7 @@ import {
   RightLevCharacter
 } from './styles';
 
-import Irina from '../../assets/images/irina.png';
+import Irina from '../../assets/images/Irina.png';
 import Lev from '../../assets/images/lev.png';
 
 function Introduction (): JSX.Element {
