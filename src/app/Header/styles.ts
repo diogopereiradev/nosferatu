@@ -25,6 +25,7 @@ export const Stars = styled.div<StarsProps>`
   height: 1px;
   background: transparent;
   box-shadow: ${props => multipleStars(props.amount)};
+  z-index: -1;
 
   &:after {
     content: " ";
@@ -47,6 +48,7 @@ export const Moon = styled.div`
   background-color: #d8fffc;
   border-radius: 100%;
   box-shadow: 0px 0px 120px #d8fffc;
+  z-index: 0;
 
   @media screen and (max-width: 1800px) {top: 30px;}
   @media screen and (max-width: 1500px) {top: 30px;}
@@ -63,6 +65,7 @@ export const FrozenLake = styled.div`
   transform-style: preserve-3d;
   transform: rotateX(70deg);
   border-radius: 30% 30% 0px 0px;
+  z-index: 0;
   
   @media screen and (max-width: 1500px) {bottom: -320px;}
   @media screen and (max-width: 900px) {border-radius: 0px;}

@@ -10,6 +10,8 @@ import {
   RightGiantPineTree,
   Moon
 } from './styles';
+import Clouds from '../../components/Clouds/index';
+
 import GrassTerrainImage from '../../assets/images/grassterrain.png';
 import GiantPineTreeImage from '../../assets/images/giant-pine-tree.png';
 
@@ -35,6 +37,7 @@ function StarsResponsive (): JSX.Element {
 function Header (): JSX.Element {
   return (
     <Container>
+      <Clouds amount={5}/>
       <StarsResponsive />
       <Moon />
       <FrozenLake />
