@@ -21,7 +21,7 @@ export const Container = styled.header`
 `;
 
 export const Stars = styled.div<StarsProps>`
-  width: 1px;
+  width: 2px;
   height: 1px;
   background: transparent;
   box-shadow: ${props => multipleStars(props.amount)};
@@ -48,6 +48,7 @@ export const Moon = styled.div`
   border-radius: 100%;
   box-shadow: 0px 0px 120px #d8fffc;
 
+  @media screen and (max-width: 1800px) {top: 30px;}
   @media screen and (max-width: 1500px) {top: 30px;}
   @media screen and (max-width: 650px) {top: 120px;}
 `;
