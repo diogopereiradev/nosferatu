@@ -17,6 +17,8 @@ export default createGlobalStyle`
     list-style: none;
     -webkit-tap-highlight-color: transparent;
   }
+
+  .loading {display: none;}
   
   ::-webkit-scrollbar {
     width: 5px;

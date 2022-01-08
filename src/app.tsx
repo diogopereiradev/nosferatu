@@ -9,10 +9,18 @@ function App (): JSX.Element {
   return (
     <React.Fragment>
       <GlobalStyles />
-      <Wrapper>
+      <Wrapper className="loading">
         <Header />
       </Wrapper>
     </React.Fragment>
   );
 }
-render(<App />, document.querySelector('.nosferatu-root'));
+
+window.onload = () => {
+  render(<App />, document.querySelector('.nosferatu-root'));
+
+  setTimeout(() => {
+    const loading = document.querySelector('.loading');
+    loading.classList.toggle('loading');
+  }, 250);
+};
