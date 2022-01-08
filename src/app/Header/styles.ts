@@ -115,7 +115,6 @@ export const FrozenLake = styled.div`
   background: linear-gradient(180deg, rgba(147,214,210,0.6278886554621849) 0%, rgba(76,162,156,0.7259278711484594) 100%);
   transform-style: preserve-3d;
   transform: rotateX(70deg);
-  border-radius: 30% 30% 0px 0px;
   z-index: 0;
   
   @media screen and (max-width: 1500px) {bottom: -320px;}

@@ -18,7 +18,7 @@ export default createGlobalStyle`
     -webkit-tap-highlight-color: transparent;
   }
 
-  .loading {display: none;}
+  body {background-color: rgba(0,2,20,1);}
   
   ::-webkit-scrollbar {
     width: 5px;

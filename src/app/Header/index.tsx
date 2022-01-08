@@ -23,7 +23,7 @@ function Header (): JSX.Element {
       <FrozenLake />
       <MainTitleContainer>
         <MainTitle>Nosferatu</MainTitle>
-        <SeeMoreButton href="#">See more</SeeMoreButton>
+        <SeeMoreButton href="#introduction">See more</SeeMoreButton>
       </MainTitleContainer>
     </Container>
   );
