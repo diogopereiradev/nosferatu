@@ -49,6 +49,7 @@ export const Moon = styled.div`
   box-shadow: 0px 0px 120px #d8fffc;
 
   @media screen and (max-width: 1500px) {top: 30px;}
+  @media screen and (max-width: 650px) {top: 120px;}
 `;
 
 export const FrozenLake = styled.div`
@@ -82,12 +83,15 @@ export const GrassTerrainContainer = styled.div`
   @media screen and (max-width: 1500px) {bottom: -180px;}
   @media screen and (max-width: 950px) {bottom: -80px;}
   @media screen and (max-width: 600px) {bottom: -40px;}
-  @media screen and (max-width: 450px) {bottom: -15px;}
+  @media screen and (max-width: 450px) {bottom: -35px;}
 `;
 
 export const GrassTerrain = styled.img`
   width: 100%;
   object-fit: contain;
+
+  @media screen and (max-width: 550px) {width: 500px;}
+  @media screen and (max-width: 850px) {width: 750px;}
 `;
 
 export const LeftGiantPineTree = styled.img`
