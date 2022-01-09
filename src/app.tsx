@@ -8,6 +8,7 @@ import Header from './app/Header/index';
 import Introduction from './app/Introduction/index';
 import AnimeInfos from './app/AnimeInfos/index';
 import Trailler from './app/Trailler/index';
+import Footer from './app/Footer/index';
 
 function App (): JSX.Element {
   return (
@@ -22,6 +23,7 @@ function App (): JSX.Element {
         <Splitter />
         <AnimeInfos />
         <Splitter />
+        <Footer />
       </Wrapper>
     </Fragment>
   );

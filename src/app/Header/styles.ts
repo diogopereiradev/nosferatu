@@ -1,13 +1,6 @@
 import styled from 'styled-components';
 import { StarsProps } from '../../types/components/Header.types';
-
-function multipleStars (n: number): string {
-  const shadows: Array<string>  = [];
-
-  for (let i = 0; i < n; i++)
-    shadows.push(`${Math.random() * window.innerWidth}px ${Math.random() * window.innerHeight}px #fff`);
-  return shadows.join(', ');
-}
+import multipleStars from './scripts/multiplestars';
 
 export const Container = styled.header`
   position: relative;
