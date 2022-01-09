@@ -72,7 +72,7 @@ export const SeeMoreButton = styled.a`
 `;
 
 export const Stars = styled.div<StarsProps>`
-  width: 2px;
+  width: 1px;
   height: 1px;
   background: transparent;
   box-shadow: ${props => multipleStars(props.amount)};

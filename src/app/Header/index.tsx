@@ -8,6 +8,7 @@ import {
   MainTitle,
   SeeMoreButton
 } from './styles';
+import ShootingStarRain from '../../components/ShootingStarRain/index';
 
 import StarsResponsive from './stars';
 import Terrain from './terrain';
@@ -16,6 +17,7 @@ import Clouds from '../../components/Clouds/index';
 function Header (): JSX.Element {
   return (
     <Container>
+      <ShootingStarRain amount={2}/>
       <Moon />
       <Clouds amount={5}/>
       <StarsResponsive />
