@@ -18,9 +18,9 @@ function App (): JSX.Element {
         <Splitter />
         <Introduction />
         <Splitter />
-        <AnimeInfos />
-        <Splitter />
         <Trailler />
+        <Splitter />
+        <AnimeInfos />
         <Splitter />
       </Wrapper>
     </Fragment>

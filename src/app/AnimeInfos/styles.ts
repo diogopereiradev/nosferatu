@@ -5,7 +5,7 @@ export const Container = styled.section`
   flex-direction: row;
   width: 100%;
   min-height: 700px;
-  padding: 100px 15px;
+  padding: 100px 0px;
   background-color: rgba(0,2,20,1);
 
   @media screen and (max-width: 1200px) {flex-direction: column;}
@@ -175,7 +175,6 @@ export const CharactersMainContainer = styled.div`
 
 export const SynopsisContainer = styled.div`
   width: 50%;
-  height: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: center;
