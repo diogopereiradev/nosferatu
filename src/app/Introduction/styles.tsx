@@ -8,6 +8,7 @@ export const Container = styled.section`
 `;
 
 export const SectionTitleContainer = styled.div`
+  position: relative;
   width: 100%;
   height: 250px;
   display: flex;
@@ -63,8 +64,7 @@ export const LeftIrinaCharacter = styled.img`
   object-fit: contain;
   position: absolute;
   left: 0px;
-  top: 100%;
-  margin-top: -650px;
+  top: 160px;
 
   @media screen and (max-width: 1300px) {display: none;}
 `;
@@ -75,8 +75,7 @@ export const RightLevCharacter = styled.img`
   object-fit: contain;
   position: absolute;
   right: 0px;
-  top: 100%;
-  margin-top: -650px;
+  top: 160px;
   
   @media screen and (max-width: 1300px) {display: none;}
 `;

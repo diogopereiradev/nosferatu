@@ -17,10 +17,10 @@ import Lev from '../../assets/images/lev.png';
 function Introduction (): JSX.Element {
   return (
     <Container id='introduction'>
-      <LeftIrinaCharacter src={Irina} alt="left-irina-character"/>
-      <RightLevCharacter src={Lev} alt="right-irina-character"/>
       <SectionTitleContainer>
+        <LeftIrinaCharacter src={Irina} alt="left-irina-character"/>
         <SectionTitle>INTRODUCTION:</SectionTitle>
+        <RightLevCharacter src={Lev} alt="right-irina-character"/>
       </SectionTitleContainer>
       <IntroductionTextContainer>
         <IntroductionTitle>Tsuki to Laika to Nosferatu</IntroductionTitle>
