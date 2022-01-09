@@ -4,7 +4,7 @@ import {
   InfosSpecsMessageValue,
   InfosSpecsMessageResponse
 } from '../styles';
-import { SpecsMessagesProps } from '../../../types/specsmessage';
+import { SpecsMessagesProps } from '../../../types/components/SpecsMessage.types';
 
 function SpecsMessage ({ value, response }: SpecsMessagesProps): JSX.Element {
   return (
