@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   width: 100%;
+  height: 56.25vw;
   max-height: 600px;
   overflow: hidden;
 `;
@@ -11,7 +12,7 @@ export const PlayContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 600px;
+  height: 100%;
   background-color: #00000099;
   z-index: 2;
 `;
