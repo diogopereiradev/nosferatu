@@ -52,6 +52,8 @@ export const InfosAnimeSpecsContainer = styled.div`
   overflow-y: hidden;
   overflow-x: scroll;
   margin-top: 40px;
+
+  &::-webkit-scrollbar-thumb {border-radius: 50px;}
 `;
 
 export const InfosSpecsContainer = styled.div`
@@ -65,8 +67,6 @@ export const InfosSpecsContainer = styled.div`
   gap: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
-
-  &::-webkit-scrollbar-thumb {border-radius: 6px;}
 `;
 
 export const InfosSpecsTitle = styled.div`
@@ -94,9 +94,10 @@ export const InfosSpecsMessageValue = styled.p`
 `;
 
 export const InfosSpecsMessageResponse = styled.p`
+  word-break: break-all;
   font-family: monospace;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   color: #303030;
 `;
 
@@ -117,8 +118,9 @@ export const CharacterContainer = styled.div`
     left: 0;
     top: 100px;
     width: 10px;
-    height: 200px;
+    height: 120px;
     background-color: #25294b;
+    border-radius: 5px;
   }
 
   &:after {
@@ -127,8 +129,9 @@ export const CharacterContainer = styled.div`
     right: 0;
     top: 100px;
     width: 10px;
-    height: 200px;
+    height: 120px;
     background-color: #25294b;
+    border-radius: 5px;
   }
 `;
 
@@ -165,6 +168,9 @@ export const CharactersMainContainer = styled.div`
   overflow-x: scroll;
   overflow-y: hidden;
   margin-top: 35px;
+  cursor: pointer;
+  
+  &::-webkit-scrollbar-thumb {border-radius: 50px;}
 `;
 
 export const SynopsisContainer = styled.div`
