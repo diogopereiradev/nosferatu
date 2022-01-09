@@ -3,7 +3,7 @@ import {
   SynopsisContainer,
   SynopsisTitle,
   SynopsisText
-} from './styles';
+} from '../styles';
 
 function Synopsis (): JSX.Element {
   return (

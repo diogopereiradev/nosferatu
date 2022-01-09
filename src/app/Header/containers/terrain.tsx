@@ -4,9 +4,9 @@ import {
   GrassTerrainContainer,
   LeftGiantPineTree,
   RightGiantPineTree
-} from './styles';
-import GrassTerrainImage from '../../assets/images/grassterrain.png';
-import GiantPineTreeImage from '../../assets/images/giant-pine-tree.png';
+} from '../styles';
+import GrassTerrainImage from '../../../assets/images/grassterrain.png';
+import GiantPineTreeImage from '../../../assets/images/giant-pine-tree.png';
 
 export default function Terrain (): JSX.Element {
   return (

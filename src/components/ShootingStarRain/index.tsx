@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Container } from './styles';
-import { RainProps } from '../../types/shootingstarrain';
-import start from './start';
+import { RainProps } from '../../types/components/ShootingStarRain.types';
+import start from './misc/start';
 
 function Rain(props: RainProps): JSX.Element {
   const containerRef = useRef() as React.MutableRefObject<HTMLDivElement>;

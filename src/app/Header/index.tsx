@@ -1,4 +1,4 @@
-import '../../types/global';
+import '../../types/global.types';
 import React from 'react';
 import {
   Container, 
@@ -10,8 +10,8 @@ import {
 } from './styles';
 import ShootingStarRain from '../../components/ShootingStarRain/index';
 
-import StarsResponsive from './stars';
-import Terrain from './terrain';
+import StarsResponsive from './containers/stars';
+import Terrain from './containers/terrain';
 import Clouds from '../../components/Clouds/index';
 
 function Header (): JSX.Element {

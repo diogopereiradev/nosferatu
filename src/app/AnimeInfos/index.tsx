@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from './styles';
 
-import Infos from './infos';
-import Synopsis from './synopsis';
+import Infos from './containers/infos';
+import Synopsis from './containers/synopsis';
 
 function AnimeInfos (): JSX.Element {
   return (

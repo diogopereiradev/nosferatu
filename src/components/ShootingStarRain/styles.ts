@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { RainProps } from '../../types/shootingstarrain';
-import screenMove from './keyframes';
+import { RainProps } from '../../types/components/ShootingStarRain.types';
+import screenMove from './misc/keyframes';
 
 export const Container = styled.div<RainProps>`
   position: absolute;

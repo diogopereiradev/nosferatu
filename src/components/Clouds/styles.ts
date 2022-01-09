@@ -1,6 +1,6 @@
-import { CloudsProps } from '../../types/clouds';
+import { CloudsProps } from '../../types/components/Clouds.types';
 import styled from 'styled-components';
-import screenMove from './keyframes';
+import screenMove from './misc/keyframes';
 
 export const Container = styled.div<CloudsProps>`
   position: absolute;

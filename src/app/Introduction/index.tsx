@@ -1,6 +1,6 @@
-import '../../types/global';
+import '../../types/global.types';
 import React from 'react';
-import IntroductionInfos from './introductiontext';
+import IntroductionInfos from './containers/introductiontext';
 import {
   Container, 
   SectionTitleContainer,

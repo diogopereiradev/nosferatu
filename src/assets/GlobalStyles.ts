@@ -18,6 +18,8 @@ export default createGlobalStyle`
     -webkit-tap-highlight-color: transparent;
   }
 
+  img {pointer-events: none;}
+
   body {background-color: rgba(0,2,20,1);}
   
   ::-webkit-scrollbar {

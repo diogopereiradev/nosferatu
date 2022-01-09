@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StarsProps } from '../../types/header';
+import { StarsProps } from '../../types/components/Header.types';
 
 function multipleStars (n: number): string {
   const shadows: Array<string>  = [];

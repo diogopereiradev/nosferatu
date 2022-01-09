@@ -1,7 +1,7 @@
-import { CloudsProps } from '../../types/clouds';
+import { CloudsProps } from '../../types/components/Clouds.types';
 import React, { useEffect, useRef } from 'react';
 import { Container } from './styles';
-import { start } from './startanim';
+import start from './misc/start';
 
 function Clouds(props: CloudsProps): JSX.Element {
   const containerRef = useRef() as React.MutableRefObject<HTMLDivElement>;

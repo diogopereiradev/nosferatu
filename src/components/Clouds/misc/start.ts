@@ -1,4 +1,4 @@
-export function start (ref: HTMLDivElement, amount: number): void {
+function start (ref: HTMLDivElement, amount: number): void {
   const dropamount: number = amount;
   let i = 0;
   
@@ -16,3 +16,4 @@ export function start (ref: HTMLDivElement, amount: number): void {
     i++;
   }
 }
+export default start;

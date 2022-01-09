@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   IntroductionParagraph
-} from './styles';
+} from '../styles';
 
 function IntroductionInfos (): JSX.Element {
   return (
