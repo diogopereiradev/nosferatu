@@ -1,4 +1,4 @@
-function start (ref, amount): void {
+function start (ref: HTMLDivElement, amount: number): void {
   const dropamount: number = window.innerWidth / 100 * amount / 20;
   let i = 0;
 
