@@ -27,7 +27,7 @@
   "version": "1.0.1",
   "description": "The design was done with the theme of tsuki to laika nosferatu a recently released anime.",
   "main": "dist/app.js",
-  "repository": "https://github.com/FhillSlinger/nosferatu",
+  "repository": "https://github.com/FhillSlinger/nosferatu.git",
   "author": "Diogo Pereira <diogopereira.contact@gmail.com>",
   "license": "MIT"
 }
