@@ -1,8 +1,8 @@
 {
   "name": "Nosferatu",
   "description": {
-    "pt": "Nosferatu é uma landing page com a tematica do anime Tsuki to Laika to Nosferatu, criado com o objetivo de treinar o CSS",
-    "en": "Nosferatu is a landing page with the thematic of the anime Tsuki to Laika to Nosferatu, made with the objetive of learn more about CSS."
+    "pt": "Nosferatu é uma landing page com a tematica do anime Tsuki to Laika to Nosferatu. Criado com o objetivo de treinar o CSS",
+    "en": "Nosferatu is a landing page with the thematic of the anime Tsuki to Laika to Nosferatu. Made with the objetive of learn more about CSS."
   },
   "technologies": [
     {
@@ -22,5 +22,5 @@
   "projectIconUrl": "https://raw.githubusercontent.com/FhillSlinger/nosferatu/master/src/assets/images/logo.png",
   "projectRepositoryUrl": "https://github.com/FhillSlinger/nosferatu",
   "projectLiveUrl": "https://nosferatu.vercel.app/",
-  "createdAt": "12/05/2022"
+  "createdAt": "01/11/2022"
 }
