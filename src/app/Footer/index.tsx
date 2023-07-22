@@ -32,8 +32,8 @@ function Footer (): JSX.Element {
   return (
     <Container>
       <DeveloperInfosContainer>
-        <DeveloperInfosText>FhillSlinger</DeveloperInfosText>
-        <DeveloperInfosText>fhillslingercontact@gmail.com</DeveloperInfosText>
+        <DeveloperInfosText>Diogo Pereira</DeveloperInfosText>
+        <DeveloperInfosText>diogopereira.contact@gmail.com</DeveloperInfosText>
         <SocialMedias />
       </DeveloperInfosContainer>
       <AnimeLogo src={Logo} alt="anime-logo-footer-image"/>
